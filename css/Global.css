@@ -1,0 +1,52 @@
+body {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    font-family: Poppins;
+    font-style: normal;
+}
+
+header {
+    padding-top: 19px;
+    padding-bottom: 24px;
+}
+
+main {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    position: center;
+}
+.container {
+    width: 100v;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--a-text-color);
+}
